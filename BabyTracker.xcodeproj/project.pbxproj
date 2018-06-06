@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D04ABB07209D7ABA0082882E /* DiaperCoreDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04ABB06209D7ABA0082882E /* DiaperCoreDataHandler.swift */; };
+		D056B7C2209D27F3006DB8DE /* HeightCoreDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056B7C1209D27F3006DB8DE /* HeightCoreDataHandler.swift */; };
+		D056B7C4209D7498006DB8DE /* WeightCoreDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056B7C3209D7498006DB8DE /* WeightCoreDataHandler.swift */; };
+		D05B930B20C8359400F5BD39 /* weight.png in Resources */ = {isa = PBXBuildFile; fileRef = D05B930820C8359200F5BD39 /* weight.png */; };
+		D05B931520C8374600F5BD39 /* nursing.png in Resources */ = {isa = PBXBuildFile; fileRef = D05B931220C8374300F5BD39 /* nursing.png */; };
+		D05B931620C8374600F5BD39 /* weight.png in Resources */ = {isa = PBXBuildFile; fileRef = D05B931320C8374400F5BD39 /* weight.png */; };
+		D05B931720C8374600F5BD39 /* baby.png in Resources */ = {isa = PBXBuildFile; fileRef = D05B931420C8374500F5BD39 /* baby.png */; };
+		D05B931920C8376A00F5BD39 /* baby.png in Resources */ = {isa = PBXBuildFile; fileRef = D05B931820C8376900F5BD39 /* baby.png */; };
+		D06A38A5209E544400AB7FE6 /* FormulaFeedingCoreDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06A38A4209E544400AB7FE6 /* FormulaFeedingCoreDataHandler.swift */; };
+		D06A38A7209EA23500AB7FE6 /* BreastFeedingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06A38A6209EA23500AB7FE6 /* BreastFeedingViewController.swift */; };
+		D06A38A9209EB16100AB7FE6 /* BreastFeedingCoreDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06A38A8209EB16100AB7FE6 /* BreastFeedingCoreDataHandler.swift */; };
+		D06A38AB209EB75000AB7FE6 /* NursingHistoryCoreDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06A38AA209EB75000AB7FE6 /* NursingHistoryCoreDataHandler.swift */; };
+		D09AA3EB20856B630064627F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09AA3EA20856B630064627F /* AppDelegate.swift */; };
+		D09AA3ED20856B630064627F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09AA3EC20856B630064627F /* ViewController.swift */; };
+		D09AA3F020856B630064627F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09AA3EE20856B630064627F /* Main.storyboard */; };
+		D09AA3F320856B630064627F /* BabyTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D09AA3F120856B630064627F /* BabyTracker.xcdatamodeld */; };
+		D09AA3F520856B630064627F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09AA3F420856B630064627F /* Assets.xcassets */; };
+		D09AA3F820856B630064627F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09AA3F620856B630064627F /* LaunchScreen.storyboard */; };
+		D09AA40620870C080064627F /* HeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09AA40520870C080064627F /* HeightViewController.swift */; };
+		D09AA40820870C160064627F /* WeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09AA40720870C160064627F /* WeightViewController.swift */; };
+		D09AA40A20870C220064627F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09AA40920870C220064627F /* ProfileViewController.swift */; };
+		D09AA40E20870CC10064627F /* FeedingHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09AA40D20870CC10064627F /* FeedingHistoryViewController.swift */; };
+		D09C6AE4209EC6E600402EB5 /* NursingHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C6AE3209EC6E600402EB5 /* NursingHistoryViewController.swift */; };
+		D0D0AA4D209E4883004C379A /* FormulaFeedingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D0AA4C209E4883004C379A /* FormulaFeedingViewController.swift */; };
+		D0D69D19209FCE6500F465AB /* height.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D69D18209FCE6500F465AB /* height.png */; };
+		D0D69D1B209FD04800F465AB /* babyProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D69D1A209FD04800F465AB /* babyProfile.png */; };
+		D0D69D1F209FE9ED00F465AB /* breastFeeding_s.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D69D1C209FE9E900F465AB /* breastFeeding_s.png */; };
+		D0D69D20209FE9ED00F465AB /* formulaFeeding_s.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0D69D1D209FE9EA00F465AB /* formulaFeeding_s.jpeg */; };
+		D0D69D21209FE9ED00F465AB /* nursingHistory_s.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D69D1E209FE9EB00F465AB /* nursingHistory_s.png */; };
+		D0D924A4209F862800E88331 /* babyFace_placeHolder.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D924A3209F862800E88331 /* babyFace_placeHolder.png */; };
+		D0D924A7209FBDE100E88331 /* pause.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0D924A5209FBDE000E88331 /* pause.jpeg */; };
+		D0D924A8209FBDE100E88331 /* play.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0D924A6209FBDE100E88331 /* play.jpeg */; };
+		D0D924AA209FBEED00E88331 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D924A9209FBEED00E88331 /* save.png */; };
+		D0D924AC209FBF2D00E88331 /* save1.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D924AB209FBF2C00E88331 /* save1.png */; };
+		D0D924AF209FC29E00E88331 /* breastFeeding.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D924AD209FC29C00E88331 /* breastFeeding.png */; };
+		D0D924B0209FC29E00E88331 /* formulaFeeding.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0D924AE209FC29D00E88331 /* formulaFeeding.jpeg */; };
+		D0D924BE209FCC9B00E88331 /* diaper.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D924BD209FCC9A00E88331 /* diaper.png */; };
+		D0F5CCF920944E01008B24E0 /* DiaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F5CCF820944E01008B24E0 /* DiaperViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D04ABB06209D7ABA0082882E /* DiaperCoreDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaperCoreDataHandler.swift; sourceTree = "<group>"; };
+		D056B7C1209D27F3006DB8DE /* HeightCoreDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightCoreDataHandler.swift; sourceTree = "<group>"; };
+		D056B7C3209D7498006DB8DE /* WeightCoreDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightCoreDataHandler.swift; sourceTree = "<group>"; };
+		D05B930820C8359200F5BD39 /* weight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weight.png; sourceTree = "<group>"; };
+		D05B931220C8374300F5BD39 /* nursing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nursing.png; sourceTree = "<group>"; };
+		D05B931320C8374400F5BD39 /* weight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weight.png; sourceTree = "<group>"; };
+		D05B931420C8374500F5BD39 /* baby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baby.png; sourceTree = "<group>"; };
+		D05B931820C8376900F5BD39 /* baby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baby.png; sourceTree = "<group>"; };
+		D06A38A4209E544400AB7FE6 /* FormulaFeedingCoreDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaFeedingCoreDataHandler.swift; sourceTree = "<group>"; };
+		D06A38A6209EA23500AB7FE6 /* BreastFeedingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreastFeedingViewController.swift; sourceTree = "<group>"; };
+		D06A38A8209EB16100AB7FE6 /* BreastFeedingCoreDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreastFeedingCoreDataHandler.swift; sourceTree = "<group>"; };
+		D06A38AA209EB75000AB7FE6 /* NursingHistoryCoreDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NursingHistoryCoreDataHandler.swift; sourceTree = "<group>"; };
+		D09AA3E720856B630064627F /* BabyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09AA3EA20856B630064627F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D09AA3EC20856B630064627F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D09AA3EF20856B630064627F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D09AA3F220856B630064627F /* BabyTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BabyTracker.xcdatamodel; sourceTree = "<group>"; };
+		D09AA3F420856B630064627F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D09AA3F720856B630064627F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D09AA3F920856B630064627F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09AA40520870C080064627F /* HeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightViewController.swift; sourceTree = "<group>"; };
+		D09AA40720870C160064627F /* WeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightViewController.swift; sourceTree = "<group>"; };
+		D09AA40920870C220064627F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D09AA40D20870CC10064627F /* FeedingHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingHistoryViewController.swift; sourceTree = "<group>"; };
+		D09C6AE3209EC6E600402EB5 /* NursingHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NursingHistoryViewController.swift; sourceTree = "<group>"; };
+		D0D0AA4C209E4883004C379A /* FormulaFeedingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaFeedingViewController.swift; sourceTree = "<group>"; };
+		D0D69D18209FCE6500F465AB /* height.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = height.png; sourceTree = "<group>"; };
+		D0D69D1A209FD04800F465AB /* babyProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = babyProfile.png; sourceTree = "<group>"; };
+		D0D69D1C209FE9E900F465AB /* breastFeeding_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = breastFeeding_s.png; sourceTree = "<group>"; };
+		D0D69D1D209FE9EA00F465AB /* formulaFeeding_s.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = formulaFeeding_s.jpeg; sourceTree = "<group>"; };
+		D0D69D1E209FE9EB00F465AB /* nursingHistory_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nursingHistory_s.png; sourceTree = "<group>"; };
+		D0D924A3209F862800E88331 /* babyFace_placeHolder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = babyFace_placeHolder.png; sourceTree = "<group>"; };
+		D0D924A5209FBDE000E88331 /* pause.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pause.jpeg; sourceTree = "<group>"; };
+		D0D924A6209FBDE100E88331 /* play.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = play.jpeg; sourceTree = "<group>"; };
+		D0D924A9209FBEED00E88331 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		D0D924AB209FBF2C00E88331 /* save1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save1.png; sourceTree = "<group>"; };
+		D0D924AD209FC29C00E88331 /* breastFeeding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = breastFeeding.png; sourceTree = "<group>"; };
+		D0D924AE209FC29D00E88331 /* formulaFeeding.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = formulaFeeding.jpeg; sourceTree = "<group>"; };
+		D0D924BD209FCC9A00E88331 /* diaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diaper.png; sourceTree = "<group>"; };
+		D0F5CCF820944E01008B24E0 /* DiaperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaperViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D09AA3E420856B630064627F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D09AA3DE20856B630064627F = {
+			isa = PBXGroup;
+			children = (
+				D09AA3E920856B630064627F /* BabyTracker */,
+				D09AA3E820856B630064627F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D09AA3E820856B630064627F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D09AA3E720856B630064627F /* BabyTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D09AA3E920856B630064627F /* BabyTracker */ = {
+			isa = PBXGroup;
+			children = (
+				D09AA3EA20856B630064627F /* AppDelegate.swift */,
+				D09AA3EC20856B630064627F /* ViewController.swift */,
+				D09AA3EE20856B630064627F /* Main.storyboard */,
+				D09AA3F420856B630064627F /* Assets.xcassets */,
+				D0D924AB209FBF2C00E88331 /* save1.png */,
+				D0D69D1A209FD04800F465AB /* babyProfile.png */,
+				D0D924A5209FBDE000E88331 /* pause.jpeg */,
+				D0D69D18209FCE6500F465AB /* height.png */,
+				D05B931820C8376900F5BD39 /* baby.png */,
+				D0D924BD209FCC9A00E88331 /* diaper.png */,
+				D0D924A6209FBDE100E88331 /* play.jpeg */,
+				D0D69D1C209FE9E900F465AB /* breastFeeding_s.png */,
+				D05B930820C8359200F5BD39 /* weight.png */,
+				D0D69D1D209FE9EA00F465AB /* formulaFeeding_s.jpeg */,
+				D05B931420C8374500F5BD39 /* baby.png */,
+				D05B931220C8374300F5BD39 /* nursing.png */,
+				D05B931320C8374400F5BD39 /* weight.png */,
+				D0D69D1E209FE9EB00F465AB /* nursingHistory_s.png */,
+				D0D924A3209F862800E88331 /* babyFace_placeHolder.png */,
+				D0D924A9209FBEED00E88331 /* save.png */,
+				D0D924AD209FC29C00E88331 /* breastFeeding.png */,
+				D0D924AE209FC29D00E88331 /* formulaFeeding.jpeg */,
+				D09AA3F620856B630064627F /* LaunchScreen.storyboard */,
+				D09AA3F920856B630064627F /* Info.plist */,
+				D09AA3F120856B630064627F /* BabyTracker.xcdatamodeld */,
+				D09AA40520870C080064627F /* HeightViewController.swift */,
+				D09AA40720870C160064627F /* WeightViewController.swift */,
+				D09AA40920870C220064627F /* ProfileViewController.swift */,
+				D09AA40D20870CC10064627F /* FeedingHistoryViewController.swift */,
+				D0F5CCF820944E01008B24E0 /* DiaperViewController.swift */,
+				D056B7C1209D27F3006DB8DE /* HeightCoreDataHandler.swift */,
+				D056B7C3209D7498006DB8DE /* WeightCoreDataHandler.swift */,
+				D04ABB06209D7ABA0082882E /* DiaperCoreDataHandler.swift */,
+				D0D0AA4C209E4883004C379A /* FormulaFeedingViewController.swift */,
+				D06A38A4209E544400AB7FE6 /* FormulaFeedingCoreDataHandler.swift */,
+				D06A38A6209EA23500AB7FE6 /* BreastFeedingViewController.swift */,
+				D06A38A8209EB16100AB7FE6 /* BreastFeedingCoreDataHandler.swift */,
+				D06A38AA209EB75000AB7FE6 /* NursingHistoryCoreDataHandler.swift */,
+				D09C6AE3209EC6E600402EB5 /* NursingHistoryViewController.swift */,
+			);
+			path = BabyTracker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D09AA3E620856B630064627F /* BabyTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09AA3FC20856B630064627F /* Build configuration list for PBXNativeTarget "BabyTracker" */;
+			buildPhases = (
+				D09AA3E320856B630064627F /* Sources */,
+				D09AA3E420856B630064627F /* Frameworks */,
+				D09AA3E520856B630064627F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabyTracker;
+			productName = BabyTracker;
+			productReference = D09AA3E720856B630064627F /* BabyTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D09AA3DF20856B630064627F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Justin Kim";
+				TargetAttributes = {
+					D09AA3E620856B630064627F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D09AA3E220856B630064627F /* Build configuration list for PBXProject "BabyTracker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D09AA3DE20856B630064627F;
+			productRefGroup = D09AA3E820856B630064627F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D09AA3E620856B630064627F /* BabyTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D09AA3E520856B630064627F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D924A7209FBDE100E88331 /* pause.jpeg in Resources */,
+				D0D924BE209FCC9B00E88331 /* diaper.png in Resources */,
+				D09AA3F820856B630064627F /* LaunchScreen.storyboard in Resources */,
+				D09AA3F520856B630064627F /* Assets.xcassets in Resources */,
+				D05B931720C8374600F5BD39 /* baby.png in Resources */,
+				D05B931920C8376A00F5BD39 /* baby.png in Resources */,
+				D0D69D19209FCE6500F465AB /* height.png in Resources */,
+				D0D69D1F209FE9ED00F465AB /* breastFeeding_s.png in Resources */,
+				D0D924A4209F862800E88331 /* babyFace_placeHolder.png in Resources */,
+				D0D69D20209FE9ED00F465AB /* formulaFeeding_s.jpeg in Resources */,
+				D0D69D1B209FD04800F465AB /* babyProfile.png in Resources */,
+				D0D924AC209FBF2D00E88331 /* save1.png in Resources */,
+				D09AA3F020856B630064627F /* Main.storyboard in Resources */,
+				D0D924AA209FBEED00E88331 /* save.png in Resources */,
+				D05B931620C8374600F5BD39 /* weight.png in Resources */,
+				D0D924AF209FC29E00E88331 /* breastFeeding.png in Resources */,
+				D0D924A8209FBDE100E88331 /* play.jpeg in Resources */,
+				D05B931520C8374600F5BD39 /* nursing.png in Resources */,
+				D0D69D21209FE9ED00F465AB /* nursingHistory_s.png in Resources */,
+				D0D924B0209FC29E00E88331 /* formulaFeeding.jpeg in Resources */,
+				D05B930B20C8359400F5BD39 /* weight.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D09AA3E320856B630064627F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04ABB07209D7ABA0082882E /* DiaperCoreDataHandler.swift in Sources */,
+				D09AA3F320856B630064627F /* BabyTracker.xcdatamodeld in Sources */,
+				D0F5CCF920944E01008B24E0 /* DiaperViewController.swift in Sources */,
+				D06A38AB209EB75000AB7FE6 /* NursingHistoryCoreDataHandler.swift in Sources */,
+				D09AA3ED20856B630064627F /* ViewController.swift in Sources */,
+				D09AA40820870C160064627F /* WeightViewController.swift in Sources */,
+				D06A38A9209EB16100AB7FE6 /* BreastFeedingCoreDataHandler.swift in Sources */,
+				D06A38A5209E544400AB7FE6 /* FormulaFeedingCoreDataHandler.swift in Sources */,
+				D06A38A7209EA23500AB7FE6 /* BreastFeedingViewController.swift in Sources */,
+				D09AA40E20870CC10064627F /* FeedingHistoryViewController.swift in Sources */,
+				D09AA3EB20856B630064627F /* AppDelegate.swift in Sources */,
+				D0D0AA4D209E4883004C379A /* FormulaFeedingViewController.swift in Sources */,
+				D09C6AE4209EC6E600402EB5 /* NursingHistoryViewController.swift in Sources */,
+				D09AA40A20870C220064627F /* ProfileViewController.swift in Sources */,
+				D056B7C2209D27F3006DB8DE /* HeightCoreDataHandler.swift in Sources */,
+				D09AA40620870C080064627F /* HeightViewController.swift in Sources */,
+				D056B7C4209D7498006DB8DE /* WeightCoreDataHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D09AA3EE20856B630064627F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D09AA3EF20856B630064627F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D09AA3F620856B630064627F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D09AA3F720856B630064627F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D09AA3FA20856B630064627F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D09AA3FB20856B630064627F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D09AA3FD20856B630064627F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4562Q5CQ46;
+				INFOPLIST_FILE = BabyTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jkim.BabyTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D09AA3FE20856B630064627F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4562Q5CQ46;
+				INFOPLIST_FILE = BabyTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jkim.BabyTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D09AA3E220856B630064627F /* Build configuration list for PBXProject "BabyTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09AA3FA20856B630064627F /* Debug */,
+				D09AA3FB20856B630064627F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09AA3FC20856B630064627F /* Build configuration list for PBXNativeTarget "BabyTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09AA3FD20856B630064627F /* Debug */,
+				D09AA3FE20856B630064627F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D09AA3F120856B630064627F /* BabyTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D09AA3F220856B630064627F /* BabyTracker.xcdatamodel */,
+			);
+			currentVersion = D09AA3F220856B630064627F /* BabyTracker.xcdatamodel */;
+			path = BabyTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			usesTabs = 0;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D09AA3DF20856B630064627F /* Project object */;
+}
